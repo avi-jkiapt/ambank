@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AMBank</title>
+</head>
+
+<body>
+  
+  <nav class="teal">
+    <div class="container">
+      <div class="nav-wrapper">
+         <a href="index.html" class="brand-logo">AMBank</a>
+         <a href="#" data-activates="mobile-nav" class="button-collapse">
+           <i class="material-icons">menu</i></a>
+           <ul class="right hide-on-med-and-down">
+             <li><a href="#" class="dropdown-button" data-activates="dropdown1">Accounts<i class="material-icons right">arrow_drop_down</i></a></li>
+             <li><a href="#" class="dropdown-button" data-activates="dropdown2">Deposits<i class="material-icons right">arrow_drop_down</i></a></li>
+             <li><a href="#" class="dropdown-button" data-activates="dropdown3">Loans<i class="material-icons right">arrow_drop_down</i></a></li>
+             <li><a href="#" class="dropdown-button" data-activates="dropdown4">Cards<i class="material-icons right">arrow_drop_down</i></a></li>
+             <li><a href="#" class="dropdown-button" data-activates="dropdown5">Insurance<i class="material-icons right">arrow_drop_down</i></a></li>
+             <li><a href="login.html" class="btn">Login</a></li>
+           </ul>
+           <ul id="mobile-nav" class="side-nav">
+             <li class="subheader "><a href="index.html" class="teal-text"> AMBank</a></li>
+            <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                <li>
+                  <a class="collapsible-header teal-text" >Account<i class="material-icons ">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a href="#!">Saving Account</a></li>
+                      <li><a href="#!">Current Account</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            
+            <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                <li>
+                  <a class="collapsible-header teal-text">Deposits<i class="material-icons">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a href="#!">Fixed Deposit</a></li>
+                      <li><a href="#!">Reccuring Deposit</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                <li>
+                  <a class="collapsible-header teal-text">Loans<i class="material-icons">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a href="#!">Personal Loan</a></li>
+                      <li><a href="#!">Home Loan</a></li>
+                      <li><a href="#!">Education Loan</a></li>
+                      <li><a href="#!">Vehicle Loan</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                <li>
+                  <a class="collapsible-header teal-text">Cards<i class="material-icons">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a href="#!">Credit Cards</a></li>
+                      <li><a href="#!">Debit Cards</a></li>
+                      <li><a href="#">Prepaid Cards</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+            <li class="no-padding">
+              <ul class="collapsible collapsible-accordion">
+                <li>
+                  <a class="collapsible-header teal-text">Insurance<i class="material-icons">arrow_drop_down</i></a>
+                  <div class="collapsible-body">
+                    <ul>
+                      <li><a href="#!">Life Insurance</a></li>
+                      <li><a href="#!">Health Insurance</a></li>
+                      <li><a href="#!">Vehicle Insurance</a></li>
+                      <li><a href="#!">Mutual Funds</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </li>
+
+
+            <li><a href="login.html" class="btn">LOGIN</a></li>
+
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- dropdown1 -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!">Saving Account</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Current Account</a></li>
+  </ul>
+<!-- dropdown2 -->
+<ul id="dropdown2" class="dropdown-content">
+    <li><a href="#!">Fixed Deposit</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Reccuring Deposit</a></li>
+</ul>
+
+<!-- dropdown3 -->
+<ul class="dropdown-content" id="dropdown3">
+     <li><a href="#">Personal Loan</a></li>
+     <li class="divider"></li>
+     <li><a href="#">Home Loan</a></li>
+     <li class="divider"></li>
+     <li><a href="#">Education Loan</a></li>
+     <li class="divider"></li>
+     <li><a href="#">Vehicle Loan</a></li>
+</ul>
+
+<!-- dropdown4 -->
+<ul class="dropdown-content" id="dropdown4">
+    <li><a href="">Debit Card</a></li>
+    <li class="divider"></li>
+    <li><a href="">Credit Card</a></li>
+    <li class="divider"></li>
+    <li><a href="">Prepaid Card</a></li>
+</ul>
+
+<!-- dropdown5 -->
+<ul class="dropdown-content" id="dropdown5">
+    <li><a href="">General Insurance</a></li>
+    <li class="divider"></li>
+    <li><a href="">Health Insurance</a></li>
+    <li class="divider"></li>
+    <li><a href="">Life Insurance</a></li>
+    <li class="divider"></li>
+    <li><a href="">Mutual Funds</a></li>
+</ul>
+
+<!-- Image Slider -->
+
+<section class="section-slider slider">
+  <ul class="slides">
+    <li>
+      <img src="img/img6.jpg" alt="aaa">
+          <!-- center align -->
+          <div class="caption left-align">
+            <h3>What is good than better Interest?</h3>
+            <h5>Get Better Interest rate at AMBank</h5>
+            <a href="#" class="btn">READ MORE</a>
+          </div>
+    </li>
+    <li>
+        <img src="img/img2.jpg" alt="aaa">
+            <!-- center align -->
+            <div class="caption right-align yellow-text darken-3">
+              <h3>Lowest EMI for Car Loans</h3>
+              <h5>Get less EMI for easy rides</h5>
+              <a href="#" class="btn">READ MORE</a>
+            </div>
+    </li>
+    <li>
+        <img src="img/img3.jpg" alt="aaa">
+            <!-- center align -->
+            <div class="caption center-align brown-text lighten-3">
+              <h3>Cards for Easy Payments</h3>
+              <h5>Debit cards with lots of facility</h5>
+              <a href="#" class="btn">READ MORE</a>
+            </div>
+    </li>
+    <li>
+        <img src="img/life.jpg" alt="aaa">
+            <!-- center align -->
+            <div class="caption left-align">
+              <h3>Term Life Insurance</h3>
+              <h5>What You Need to Know</h5>
+              <a href="#" class="btn">READ MORE</a>
+            </div>
+    </li>
+    <li>
+        <img src="img/img5.jpg" alt="aaa">
+            <!-- center align -->
+            <div class="caption left-align">
+              <h3>PradhanMantri Bima Yojna</h3>
+              <h5>Get easily government schemes link to your bank account</h5>
+              <a href="#" class="btn">READ MORE</a>
+            </div>
+    </li>
+
+  </ul>
+</section>
+
+<section class="section section-help grey lighten-2">
+  <div class="container">
+    <div class="row center">
+       
+       <div class="col s12 m3">
+          <div class="card">
+             <div class="card-content center">
+                <h3 class="teal-text">%</h3>
+                <span class="card-title">Interest Rate </span>
+             </div>
+          </div>
+       </div>
+       <div class="col s12 m3">
+          <div class="card">
+             <div class="card-content center">
+                <i class="material-icons medium teal-text">android
+                  </i>
+                <span class="card-title">Mobile Application</span>
+             </div>
+          </div>
+       </div>
+       <div class="col s12 m3">
+          <div class="card">
+             <div class="card-content center">
+                <i class="material-icons medium teal-text">person
+                  </i>
+                <span class="card-title">Customer Service</span>
+             </div>
+          </div>
+       </div>
+       <div class="col s12 m3">
+          <div class="card">
+             <div class="card-content center">
+                <i class="material-icons medium teal-text">help
+                  </i>
+                <span class="card-title">Faqs</span>
+             </div>
+          </div>
+       </div>
+    </div>
+  </div>
+</section>
+
+<!-- section offer -->
+<section class="section section-service teal darken-1">
+   <div class="container">
+     <div class="row center">
+        <div class="col s12 m4">
+           <h5 class="white-text">Check Eligibility</h5>
+           <div class="">
+              <ul class="collection">
+                 <a href="#" class="collection-item">Personal Loan</a>
+                 <a href="#" class="collection-item">Education Loan</a>
+                 <a href="#" class="collection-item">Car Loan</a>
+                 <a href="#" class="collection-item">Home Loan</a>
+                 <a href="#" class="collection-item">Credit Card</a>
+              </ul>
+           </div>
+        </div>
+        <div class="col s12 m4">
+            <h5 class="white-text">Calculator</h5>
+            <div class="">
+               <ul class="collection">
+                  <a href="#" class="collection-item">Credit Card Loan EMI Calculator</a>
+                  <a href="#" class="collection-item">Personal Loan EMI Calculator</a>
+                  <a href="#" class="collection-item">Car Loan EMI Calculator</a>
+                  <a href="#" class="collection-item">Home Loan EMI Calculator</a>
+                  <a href="#" class="collection-item">Fixed Deposit Calculator</a>
+               </ul>
+            </div>
+         </div>
+         <div class="col s12 m4">
+            <h5 class="white-text">Quick Links</h5>
+            <div class="">
+               <ul class="collection">
+                  <a href="#" class="collection-item">Track Saving A/c Application</a>
+                  <a href="#" class="collection-item">Track Personal Loan Request</a>
+                  <a href="#" class="collection-item">Loan Against Mutual Funds</a>
+                  <a href="#" class="collection-item">Pradhan Mantri Yojana</a>
+                  <a href="#" class="collection-item">Government e-Marketplace</a>
+               </ul>
+            </div>
+         </div> 
+     </div>
+   </div>
+</section>
+
+ <section class="section section-offer">
+    <div class="container">
+       <div class="row center">
+          <h4 class="teal-text title">Exclusive Offers</h4>
+          <div class="col s12 m3">
+              <div class="card ">
+                  <div class="card-image">
+                      <img src="img/carfamily.jpg" alt="aa">
+                      <span class="card-title yellow-text darken-3">Car Easy EMI</span>
+                  </div>
+                  <div class="card-action">
+                      <a href="#" class="btn">READ MORE</a>
+                  </div>
+              </div>
+         </div>
+         <div class="col s12 m3">
+            <div class="card ">
+                <div class="card-image">
+                    <img src="img/card.jpg" alt="aa">
+                    <span class="card-title yellow-text darken-3">Broad Visa Card</span>
+                </div>
+                <div class="card-action">
+                    <a href="#" class="btn">READ MORE</a>
+                  </div>
+            </div>
+       </div>
+
+       <div class="col s12 m3">
+          <div class="card ">
+              <div class="card-image">
+                  <img src="img/healthy.jpg" alt="aa">
+                  <span class="card-title yellow-text darken-3">Health</span>
+              </div>
+              <div class="card-action">
+                  <a href="#" class="btn">READ MORE</a>
+                </div>
+          </div>
+     </div>
+
+     <div class="col s12 m3">
+        <div class="card ">
+            <div class="card-image">
+                <img src="img/travell.jpg" alt="aa">
+                <span class="card-title yellow-text darken-3">Travel</span>
+            </div>
+            <div class="card-action">
+                <a href="#" class="btn">READ MORE</a>
+              </div>
+        </div>
+   </div>
+
+
+       </div>
+    </div>
+ </section>
+
+ <!-- footer -->
+ 
+ <footer class="footer section white-text teal">
+   <div class="container">
+      <div class="row center">
+          <div class="col s12 m4 ">
+              <h5 class="white-text">Connect With Us</h5>
+              <a href="" class="yellow-text"><i class="fab fa-twitter fa-2x"></i></a> &nbsp;&nbsp;
+              <a href="" class="yellow-text"><i class="fab fa-linkedin fa-2x"></i></a>  &nbsp;&nbsp;
+             
+              <a href="" class="yellow-text"><i class="fab fa-pinterest fa-2x"></i></a>  <br> 
+              <a href="" class="yellow-text"><i class="fab fa-facebook fa-2x"></i></a>&nbsp;&nbsp;
+              <a href="" class="yellow-text"><i class="fab fa-youtube fa-2x"></i></a>&nbsp;&nbsp;
+              <a href="" class="yellow-text"><i class="fab fa-instagram fa-2x"></i></a> <br>
+              <h5>About Us</h5>
+              <a class="yellow-text" href="">Disclaimer</a> &nbsp;
+              <a class="yellow-text" href="">Sitemap</a> <br>
+              <a class="yellow-text" href="">Privacy</a>  &nbsp;
+              <a class="yellow-text" href="">Watch Videos</a>  <br>
+              <a class="yellow-text" href="">Important Notice</a>  &nbsp;
+              <a class="yellow-text" href="">Careers</a> <br> 
+
+          </div>
+          <div class="col s12 m4 yellow-text">
+              <h5 class="white-text">Important Links</h5>
+              <p>Service Charges &amp; Interest Rates</p>
+              <p>Branch &amp; ATM Locators </p>
+              <p>Mobile Bankings</p>
+              <p>National Voters Service Portal</p>
+              <p>Apply Online</p>
+          </div>
+          <div class="col s12 m4 yellow-text">
+              <h5 class="white-text">Other Services</h5>
+               <p><a href="" class="yellow-text">Cash Management Product</a></p>
+               <p><a href="" class="yellow-text">Pradhan Mantri Mudra Yojana</a></p>
+               <p><a href="" class="yellow-text">Report Unauthorized Complaint</a></p>
+               <p><a href="" class="yellow-text">Global Markets</a></p>
+               <p><a href="" class="yellow-text">Electoral Bond</a></p>
+               
+
+          </div>
+      </div>
+   </div>
+ </footer>
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Custom JS & jQuery here
+      $('.dropdown-button').dropdown();
+
+      $('.button-collapse').sideNav();
+
+      $('.slider').slider({
+        indicators:false,
+        interval:3000
+      });
+    });
+  </script>
+</body>
+
+</html>

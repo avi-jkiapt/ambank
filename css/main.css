@@ -1,0 +1,16 @@
+.section-slider{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card .card-content{
+    
+    max-height: 160px !important;
+}
+.card-image img{
+    height: 240px !important;
+}
+.abc input{
+    width: 50%;
+}
